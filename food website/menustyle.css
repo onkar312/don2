@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+body {
+  background-image: url("./o/mathilde-langevin-PiwXpD3-Hbs-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  flex-direction: column;
+  font-family: "Klee One", cursive;
+}
+.header {
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgb(0, 128, 109); */
+  /* padding: 1em 2em; */
+  font-size: 64px;
+  color: #42eaddff;
+}
+/* main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100em;
+} */
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  height: 400px;
+  width: 420px;
+  padding: 5em;
+}
+/* .option {
+  /* align-items: center;  */
+/* justify-content: center;
+} */
+.option {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 5rem;
+}
+.paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  color: #ba0020ff;
+  font-size: 48px;
+  text-align: center;
+}
+/* .sub {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+} */
+.paragraph a {
+  text-decoration: none;
+}
